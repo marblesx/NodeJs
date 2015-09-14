@@ -201,5 +201,5 @@ ctrl.controller('GameCtrl', function($scope, $routeParams, GameService){
                 GameService.departGame($scope.game.id, $scope.playerId);
             }
         });
-    })
+    });
     

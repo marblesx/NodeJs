@@ -1,7 +1,7 @@
 {
   "name": "nodejs-against-humanity",
   "version": "1.0.0-14",
-  "description": "Cards Against Humanities implemented in NodeJS",
+  "description": "Cards Against Humanities",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -21,9 +21,22 @@
     "oauth": "~0.9.10",
     "redis": "~0.8.4",
     "redis-url": "0.1.0",
-    "request": "~2.27.0"
+    "request": "~2.27.0",
+    "mongoose": "~3.8.1",          
+    "passport": "~0.1.17",         
+    "passport-local": "~0.1.6",    
+    "passport-facebook": "~1.0.2", 
+    "passport-twitter": "~1.0.2",  
+    "passport-google-oauth": "~0.1.5",
+    "connect-flash": "~0.1.1",     
+    
+    "morgan": "~1.0.0",
+    "body-parser": "~1.0.0",
+    "cookie-parser": "~1.0.0",
+    "method-override": "~1.0.0",
+    "express-session": "~1.0.0"     
   },
-  "subdomain": "nah-amir-rajan",
+  "subdomain": "",
   "engines": {
     "node": "0.10.x"
   }
