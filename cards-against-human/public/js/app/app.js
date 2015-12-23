@@ -16,3 +16,5 @@ config(['$routeProvider', function($routeProvider) {
     $routeProvider.when('/game/:gameId/pId/:playerId/name/:playerName', {templateUrl: 'views/game.html', controller: 'GameCtrl'});
     //$routeProvider.otherwise({redirectTo: '/'});
 }]);
+
+angular.module('myApp.controllers',[]);

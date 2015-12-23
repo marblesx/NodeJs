@@ -6,6 +6,17 @@ var routes = require('./routes/routes.js');
 var players = { };
 var io = require('socket.io').listen(server);
 var socketCount = 0;
+var mongoose = require('mongoose');
+
+mongoose.connect('mongodb://testUser:12345@ds051853.mongolab.com:51853/cahdb');
+var db = mongoose.connection;
+db.on('error', console.error.bind(console, 'connection error:'));
+db.once('open', function (callback) {
+  // yay!
+    console.info('connection');
+});
+console.info(db.collection);
+
 
 server.listen(process.env.PORT || 3000);
 

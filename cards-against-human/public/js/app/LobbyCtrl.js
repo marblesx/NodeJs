@@ -1,7 +1,6 @@
 
-var ctrl = angular.module('myApp.controllers', []);
-
-ctrl.controller('LobbyCtrl', function($scope, $location, GameService) {
+angular.module('myApp')
+    .controller('LobbyCtrl', function($scope, $location, GameService) {
         console.info('LobbyCtrl loaded');
         var socket;
 

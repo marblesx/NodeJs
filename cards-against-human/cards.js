@@ -4,6 +4,7 @@ function getDeck() {
 
 function black() {
   return [
+      
     "A romantic candlelit dinner would be incomplete without __________.",
     "After Hurricane Katrina, Sean Penn brought __________ to the people of New Orleans.",
     "After the earthquake, Sean Penn brought __________ to the people of Haiti.",
